@@ -1,0 +1,1 @@
+python FiberPy.py run_batch "../../../../../Python Scripts/stelzer_c_protein\k_tr/batch_k_tr.json"

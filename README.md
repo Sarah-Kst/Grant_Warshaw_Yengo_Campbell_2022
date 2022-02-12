@@ -1,12 +1,18 @@
 ## This repo allows to compare force-velocity and k_tr curves for three models with FiberSim:
 
-1. Model with a polynomial detachment rate
+1. Model with a polynomial detachment rate 
 
-2. Model with an exponential load-dependent rate
+2. Model with an exponential load-dependent rate 
 
 3. Model with an exponential load-dependent rate + wall for x > x_lim 
 
-To obtain force-velocity curves:
+### To plot the detachment rates:
+
+1) Go to force-velocity/Python code
+
+2) Run "plot_detachment_rates" on Spyder. This will plot the rate for model i stored in sim_imput/i. 
+
+### To obtain force-velocity curves:
 
 1) Open "Python_code/run_tension_velocity.py"
 
@@ -18,7 +24,7 @@ To obtain force-velocity curves:
 
 5) You can run "Python_code/plot_fv.py" for a quick plot of the 3 force-velocity and force-power curves
 
-To obtain k_tr curves:
+### To obtain k_tr curves:
 
 1) Create_protocol_files allows to create a set of k_tr protocols for a serie of pCa values (line 12)
 
@@ -27,5 +33,7 @@ To obtain k_tr curves:
 3) Once the batch file is created, call FiberPy to run it, like for a FiberSim demo, by typing "python FiberPy.py run_batch "../../../../Grant_Warshaw_Yengo_Campbell_2022\k_tr/batch_k_tr.json"
 
 4) You can run "Python_code/plot_ktr.py" in Spyder for a quick superposed plot of the three k_tr curves
+
+## !!! Be sure to have pushed the latest FiberSim version from the repo
 
 

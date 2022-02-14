@@ -126,7 +126,7 @@
     "c_thick_stripes": 10,
     "c_thick_node_spacing": 3,
     "c_mols_per_node": 3,
-    "c_starting_angle": 40.0
+    "c_starting_angle": 30.0
   },
   "mybpc_parameters": {
     "c_k_stiff": 0.0005,
@@ -160,7 +160,7 @@
               "new_state": 1,
               "rate_type": "poly",
               "rate_parameters": [
-                50,1,2
+                15,1,2
               ]
             }
           ]
